@@ -1,3 +1,10 @@
 export default function Home() {
-  return <>Home</>
+  return (
+    <>
+      {' '}
+      <body>
+        <div className="complimentBox"></div>
+      </body>
+    </>
+  )
 }
