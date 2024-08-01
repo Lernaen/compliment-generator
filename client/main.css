@@ -2,6 +2,18 @@ body {
   background-color: #faf8f1;
   color: #0a1520;
   font-family: 'Poppins', sans-serif;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/799/965/131/rainbow-hd-1080p-high-quality-wallpaper-preview.jpg');
+  background-size: cover;
+  height: vh100;
+}
+
+.complimentBox {
+  background-color: #f8f398;
+  border-radius: 23%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26pt;
+  height: 50%;
+  width: 80%;
 }
 
 .sunButton {
