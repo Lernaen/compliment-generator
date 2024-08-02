@@ -7,7 +7,7 @@ body {
   height: vh100;
 }
 
-/* .complimentBox {
+.complimentBox {
   background-color: #f8f398;
   border-radius: 23%;
   font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +18,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-} */
+}
 
 .sunButton {
   width: 400px;
@@ -41,9 +41,9 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/* .genAgain {
-  width: 100px;
-  height: 100px;
+.genAgain {
+  width: 150px;
+  height: 150px;
   border-radius: 23%;
   background-color: yellow;
   outline-color: red;
@@ -53,11 +53,11 @@ body {
   margin: auto;
   font-family: 'Kalnia Glaze', serif;
   font-weight: 100px;
-  font-size: 10px;
+  font-size: 20px;
   font-style: bold;
   font-variation-settings: 'wdth' 100;
   position: fixed;
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-} */
+}

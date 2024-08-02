@@ -5,8 +5,8 @@ export default function Home() {
       <body>
         <div className="complimentBox"></div>
       </body>
-      <button className="sunButton">GENERATE COMPLIEMENT</button>
-      <button className="genAgain "></button>
+      <button className="complimentBox">You are... like... </button>
+      <button className="genAgain ">Again, Again</button>
     </>
   )
 }
