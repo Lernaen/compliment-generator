@@ -8,7 +8,6 @@ export default function Home() {
         <div className="complimentBox"></div>
 
         <div className="complimentBox">{<NewCompliment />}</div>
-        <button className="genAgain ">Again, Again</button>
       </main>
     </>
   )

@@ -61,3 +61,10 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+p {
+  font-family: 'Kalnia Glaze', serif;
+  font-weight: 100px;
+  font-size: 40px;
+  font-style: bold;
+}

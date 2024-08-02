@@ -23,7 +23,9 @@ export default function NewCompliment() {
   return (
     <div>
       <p>{compliment}</p>
-      <button onClick={handleClick}></button>
+      <button className="genAgain " onClick={handleClick}>
+        <p>Generate Compliment! Again, Again!</p>
+      </button>
     </div>
   )
 }
