@@ -1,5 +1,4 @@
-import { generateCompliment } from '../components/Generator'
-import newCompliment from './Compliment'
+import NewCompliment from './Compliment'
 
 export default function Home() {
   return (
@@ -8,7 +7,7 @@ export default function Home() {
       <main>
         <div className="complimentBox"></div>
 
-        <button className="complimentBox">{generateCompliment()}</button>
+        <div className="complimentBox">{<NewCompliment />}</div>
         <button className="genAgain ">Again, Again</button>
       </main>
     </>
