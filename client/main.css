@@ -7,14 +7,18 @@ body {
   height: vh100;
 }
 
-.complimentBox {
+/* .complimentBox {
   background-color: #f8f398;
   border-radius: 23%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 26pt;
   height: 50%;
   width: 80%;
-}
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
 
 .sunButton {
   width: 400px;
@@ -26,19 +30,34 @@ body {
   justify-content: center;
   align-items: center;
   margin: auto;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+  font-family: 'Kalnia Glaze', serif;
+  font-weight: 100px;
+  font-size: 40px;
+  font-style: bold;
+  font-variation-settings: 'wdth' 100;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* .genAgain {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 23%;
   background-color: yellow;
+  outline-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
+  font-family: 'Kalnia Glaze', serif;
+  font-weight: 100px;
+  font-size: 10px;
+  font-style: bold;
+  font-variation-settings: 'wdth' 100;
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 } */

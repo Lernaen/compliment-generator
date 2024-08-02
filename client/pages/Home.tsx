@@ -6,6 +6,7 @@ export default function Home() {
         <div className="complimentBox"></div>
       </body>
       <button className="sunButton">GENERATE COMPLIEMENT</button>
+      <button className="genAgain "></button>
     </>
   )
 }
