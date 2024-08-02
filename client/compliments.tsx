@@ -32,7 +32,7 @@ export const adjectives = [
   'humble',
   'beautiful',
   'resilient',
-  'goofiness',
+  'goofy',
   'energy',
   'personable',
   'resourceful',
