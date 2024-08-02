@@ -1,8 +1,17 @@
-import compliments from './Compliments'
+// import { adjectives } from './Compliments'
+import { adjectives } from '../compliments'
+import { nouns } from '../compliments'
+// import { useState } from 'react'
 
-import { useState } from 'react'
+export function generateCompliment() {
+  //Add function to get random number to use in the compliments array
+  const randomAdjective =
+    adjectives[Math.floor(Math.random() * adjectives.length)]
 
-const [compliment, setCompliment] = useState
-//Function to get random number to use in the compliments array
+  const randomNoun = nouns[Math.floor(Math.random() * nouns.length)]
+  return `You are as ${randomAdjective} as a ${randomNoun}`
+}
+
+console.log(generateCompliment())
 
 //Return HTML element with selected compliment
