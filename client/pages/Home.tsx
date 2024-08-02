@@ -2,9 +2,9 @@ export default function Home() {
   return (
     <>
       {' '}
-      <body>
+      <main>
         <div className="complimentBox"></div>
-      </body>
+      </main>
       <button className="complimentBox">You are... like... </button>
       <button className="genAgain ">Again, Again</button>
     </>

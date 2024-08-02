@@ -12,4 +12,6 @@ export function generateCompliment() {
   return `You are as ${randomAdjective} as a ${randomNoun}`
 }
 
+console.log(generateCompliment())
+
 //Return HTML element with selected compliment
