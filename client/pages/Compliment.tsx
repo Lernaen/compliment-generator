@@ -10,7 +10,7 @@ export function generateCompliment() {
     adjectives[Math.floor(Math.random() * adjectives.length)]
 
   const randomNoun = nouns[Math.floor(Math.random() * nouns.length)]
-  return `You are as ${randomAdjective} as a ${randomNoun}`
+  return `You are as ${randomAdjective} as ${randomNoun}`
 }
 
 export default function NewCompliment() {
@@ -22,9 +22,9 @@ export default function NewCompliment() {
 
   return (
     <div>
-      <p>{compliment}</p>
-      <button className="genAgain " onClick={handleClick}>
-        <p>Generate Compliment! Again, Again!</p>
+      <p className="p1">{compliment}</p>
+      <button className="genAgain" onClick={handleClick}>
+        <p className="p2">Generate Compliment!</p>
       </button>
     </div>
   )
